@@ -5,48 +5,59 @@ This Python script allows users to download files from [PixelDrain](https://pixe
 
 ## Features
 
-- **Automatic File ID Extraction**: The script automatically extracts the file ID from the given PixelDrain URL.
-- **Original File Name Detection**: It checks the file's original name from the server, if available.
-- **Custom File Naming**: You can choose to either use the original file name or enter a custom name.
-- **Download to Local**: The file is downloaded and saved locally with the desired name and extension.
+- Extracts file ID from PixelDrain URL.
+- Retrieves the original file name from the response headers.
+- Option to use the original file name or provide a custom name.
+- Saves the downloaded file to your local directory.
+
+## Usage
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/pixeldrain-downloader.git
+   cd pixeldrain-downloader
+   ```
+
+2. Install the required dependencies:
+
+   ```bash
+   pip install requests
+   ```
+
+3. Run the script:
+
+   ```bash
+   python downloader.py
+   ```
+
+4. Enter the PixelDrain file URL when prompted.
+
+5. Choose whether to use the original file name or specify a custom one.
+
+## Example
+
+```bash
+Enter PixelDrain URL: https://pixeldrain.com/u/fileid12345
+
+Downloading from: https://pixeldrain.com/api/file/fileid12345?download
+
+The original file name is: example.txt
+Do you want to use the original name? (y/n): y
+
+File downloaded successfully and saved as example.txt.
+```
 
 ## Requirements
 
 - Python 3.x
-- `requests` module (install via `pip`)
+- `requests` module
 
-### Install `requests` Module
-To install the required module, run the following command:
+## License
 
-```bash
-pip install requests
+This project is licensed under the MIT License.
 
-#### How to Use
+## Credits
 
-1. Clone the Repository
-
-git clone https://github.com/yourusername/pixeldrain-downloader.git
-
-2. Navigate to the Project Directory
-
-cd pixeldrain-downloader
-
-3. Install the Required Dependencies
-
-pip install requests
-
-4. Run the Script
-
-python downloader.py
-
-5. Enter the PixelDrain URL
-
-You will be prompted to input the URL from PixelDrain.
-
-6. Choose File Name
-
-The script will show the original file name (if available) and ask if you want to use that name. You can confirm or provide a custom file name.
-
-
-##### Credits
-- [Log-D7](https://t.me/Decode7Channel)
+- Script created by [Log-D7].
+- Join the Telegram channel for updates: [Log - D7](https://t.me/Decode7Channel)
