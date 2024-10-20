@@ -1,3 +1,6 @@
+#Log-D7
+#https://t.me/Decode7Channel
+
 import requests
 
 def download_pixeldrain_file():
