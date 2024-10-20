@@ -37,4 +37,4 @@ def save_file(response, file_name):
     print(f"\nFile downloaded successfully and saved as {file_name}.")
 
 if __name__ == "__main__":
-    download_pixeldrain_file()￼Enter
+    download_pixeldrain_file()
