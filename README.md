@@ -21,7 +21,7 @@ To install the required module, run the following command:
 ```bash
 pip install requests
 
-## How to Use
+#### How to Use
 
 1. Clone the Repository
 
@@ -48,5 +48,5 @@ You will be prompted to input the URL from PixelDrain.
 The script will show the original file name (if available) and ask if you want to use that name. You can confirm or provide a custom file name.
 
 
-## Credits
-[Log-D7](https://t.me/Decode7Channel)
+##### Credits
+- [Log-D7](https://t.me/Decode7Channel)
