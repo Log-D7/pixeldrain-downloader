@@ -15,7 +15,7 @@ This Python script allows users to download files from [PixelDrain](https://pixe
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/pixeldrain-downloader.git
+   git clone https://github.com/Log-D7/pixeldrain-downloader.git
    cd pixeldrain-downloader
    ```
 
