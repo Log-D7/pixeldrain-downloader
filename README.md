@@ -28,7 +28,7 @@ This Python script allows users to download files from [PixelDrain](https://pixe
 3. Run the script:
 
    ```bash
-   python downloader.py
+   python pixeldrain.py
    ```
 
 4. Enter the PixelDrain file URL when prompted.
