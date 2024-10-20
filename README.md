@@ -1,3 +1,4 @@
+
 # PixelDrain File Downloader
 
 This Python script allows users to download files from [PixelDrain](https://pixeldrain.com) by providing the URL. The script automatically retrieves the original file name from the server, gives the user the option to either use the original name or provide a custom name, and downloads the file accordingly.
@@ -18,4 +19,34 @@ This Python script allows users to download files from [PixelDrain](https://pixe
 To install the required module, run the following command:
 
 ```bash
-pip install requests￼Enter
+pip install requests
+
+## How to Use
+
+1. Clone the Repository
+
+git clone https://github.com/yourusername/pixeldrain-downloader.git
+
+2. Navigate to the Project Directory
+
+cd pixeldrain-downloader
+
+3. Install the Required Dependencies
+
+pip install requests
+
+4. Run the Script
+
+python downloader.py
+
+5. Enter the PixelDrain URL
+
+You will be prompted to input the URL from PixelDrain.
+
+6. Choose File Name
+
+The script will show the original file name (if available) and ask if you want to use that name. You can confirm or provide a custom file name.
+
+
+## Credits
+[Log-D7](https://t.me/Decode7Channel)
