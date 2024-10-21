@@ -14,18 +14,15 @@ def download_pixeldrain_file():
     print(f"\nThe original file name is: {original_file_name}")
     file_name = choose_file_name(original_file_name)
     
-    # Ask the user where they want to save the file
-    folder_choice = input("\nDo you want to save the file in the 'Downloads' folder? (y/n): ").lower()
+    folder_choice = input("\nDo you want to save the file in the '/sdcard/Download' folder? (y/n): ").lower()
     
     if folder_choice == 'y':
-        # Automatically save in the Downloads folder
-        download_folder = os.path.join(os.path.expanduser("~"), "Downloads")
+        download_folder = "/sdcard/Download"
     else:
-        # Allow the user to choose a custom folder
         download_folder = input("Enter the full path of the folder where you want to save the file: ")
     
     if not os.path.exists(download_folder):
-        os.makedirs(download_folder)  # Create the directory if it doesn't exist
+        os.makedirs(download_folder)
 
     file_path = os.path.join(download_folder, file_name)
     save_file(response, file_path)
